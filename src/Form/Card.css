@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.col{
+    width:25%;
+}
+img{
+  width:350px;
+  height:500px;
+}
+.card-btn{
+    display:flex;
+    justify-content:space-between;
+
+}
+.btn-sub{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 25px;
+    font-size:13px;
+}
+.card{
+    margin:12px;
+}
+.card h2{
+    text-align: center;
+}
+.form{
+    text-align:center;
+    padding-top:30px;
+}
+.btn-edit,.btn-del{
+   background-color:darkred;
+   font-weight:bold;
+   padding:10px;
+   color:white;
+   font-size:13px;
+}
+.cont{
+    text-align: center;
+}
+
+
+
+
+
+
+
